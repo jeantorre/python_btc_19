@@ -11,6 +11,11 @@ flake8 = "^7.1.1"
 isort = "^5.13.2"
 black = "^24.8.0"
 pre-commit = "^3.8.0"
+fastapi = {extras = ["standard"], version = "^0.114.0"}
+pydantic = "^2.9.0"
+sqlalchemy = "^2.0.34"
+pytz = "^2024.1"
+datetime = "^5.5"
 
 
 [build-system]
